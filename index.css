@@ -1,0 +1,97 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    background-image: url(https://cdn.wallpapersafari.com/74/60/MOwKWk.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-color: rgb(173, 25, 25); */
+}
+main {
+    margin-top: 60px;
+}
+footer {
+    height: 30px;
+    box-shadow: 0 -2px 5px white;
+    background-color: black;
+    /* padding-top: 5px; */
+}
+footer p {
+    position: relative;
+    color: white;
+    font-size: 12px;
+    margin-left: 10px;
+    top: 10px;
+}
+header {
+    background-color: rgb(0, 0, 0);
+    height: 45px;
+    margin-top: 0;
+    box-shadow: 0 2px 5px white;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav a {
+    text-decoration: none;
+}
+#main-title {
+    display: inline;
+    margin-top: 0;
+    /* margin-left: 50px; */
+    font-size: 30px;
+    color: white;
+    font-family: 'Yaldevi', sans-serif;
+    text-shadow: 3px 3px 5px blue;
+}
+.trilogy h1 {
+    text-align: left;
+    margin-left: 10px;
+    font-family: 'Yaldevi', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-shadow: 3px 3px 5px red;
+
+}
+.cont {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50%;
+}
+.movie {
+    background-color: rgb(211, 17, 17);
+    margin: 10px 10px;
+    height: 350px;
+    flex: 30%;
+    max-width: 30%;
+    box-shadow: 2px 2px 5px white;
+}
+.movie img {
+    width: 100%;
+    height: 300px;
+}
+.desc {
+    text-align: center;
+    font-family: 'Yaldevi', sans-serif;
+    font-weight: bold;
+}
+@media screen and (max-width: 1200px) {
+    .movie {
+        max-width: 50%;
+        flex: 50%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .movie {
+        max-width: 70%;
+        flex: 70%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .movie {
+        max-width: 80%;
+        flex: 80%;
+    }
+}
